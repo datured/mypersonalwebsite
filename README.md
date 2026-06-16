@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>RED MAKAPAMPANG | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="header">
+      <div class="logo">RED MAKAPAMPANG</div>
+
+      <nav class="nav-links">
+        <a href="#home">HOME</a>
+        <a href="#services">SERVICES</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#education">EDUCATION</a>
+        <a href="#experience">EXPERIENCE</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+  </header>
+
+<section  id="home" class="hero">
+      <div class="hero-overlay">
+        <img src="image/profile.jpg" class="profile" alt="Profile">
+
+        <h1>Hello, I'm <span>RED</span></h1>
+        <p>Aspiring Web Developer</p>
+      </div>
+</section>
+
+<section class="about">
+      <h2>About Me</h2>
+      <p>
+        "I am an aspiring Web Developer passionate about creating modern,
+        responsive, and user-friendly websites."
+      </p>
+</section>
+
+<section id="services" class="section">
+       <h2>Services</h2>
+
+        <div class="grid">
+          <div class="card">
+            <img src="image/web-design.jpg">
+            <h3>Web Design</h3>
+            <p>Modern and clean layouts.</p>
+          </div>
+
+          <div class="card">
+            <img src="image/web-dev.jpg">
+            <h3>Web Development</h3>
+            <p>Fast and responsive websites.</p>
+          </div>
+
+          <div class="card">
+            <img src="image/game.jpg">
+            <h3>Game Dev</h3>
+            <p>Simple interactive games.</p>
+          </div>
+
+          <div class="card">
+            <img src="image/apps.jpg">
+            <h3>App Dev</h3>
+            <p>Mobile-friendly applications.</p>
+          </div>
+        </div>
+</section>
+
+<section id="skills" class="section dark">
+        <h2>Skills</h2>
+
+        <div class="grid">
+          <div class="card">
+            <img src="image/html.jpg">
+            <h3>HTML</h3>
+            <p>90%</p>
+          </div>
+
+          <div class="card">
+            <img src="image/css.jpg">
+            <h3>CSS</h3>
+            <p>85%</p>
+          </div>
+
+          <div class="card">
+            <img src="image/js.jpg">
+            <h3>JavaScript</h3>
+            <p>60%</p>
+          </div>
+
+          <div class="card">
+            <img src="image/python.jpg">
+            <h3>PYTHON</h3>
+            <p>80%</p>
+          </div>
+        </div>
+</section>
+
+<section id="education" class="section">
+      <h2>Education</h2>
+
+        <div class="text-box">
+          📘 Elementary: Completed <br><br>
+          📗 High School: Graduate <br><br>
+          📙 College: IT / Computer Science (Planning)
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section id="experience" class="section dark">
+        <h2>Experience</h2>
+
+        <div class="text-box">
+          💻 Web Developer <br><br>
+          🛠 Built personal portfolio projects <br><br>
+          🚀 Learning JavaScript & UI Design
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section">
+        <h2>Contact Me</h2>
+
+        <div class="text-box">
+          📧 Email: hooperph8@email.com <br>
+          📱 Phone: +966572108723 <br>
+          📍 Location: Saudi Arabia
+        </div>
+</section>
+
+      <footer>
+              <p>© 2026 RED MAKAPAMPANG | All Rights Reserved</p>
+      </footer>
+
+</body>
+</html>
